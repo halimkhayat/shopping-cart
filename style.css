@@ -1,0 +1,141 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+header {
+    background-color: rgb(13, 103, 133);
+    justify-content: center;
+    height: 100px;
+    text-align: center;
+}
+
+header p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+    padding-top: 30px;
+}
+
+.item-main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80%;
+    margin: 0 auto
+}
+
+.item-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-container {
+    height: 400px;
+    width:290px;
+    object-fit: contain;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div span {
+    font-size: 25px;
+    color: red;
+}
+
+.mainsection {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.title-cart-header {
+    text-align: center;
+    margin-top: 80px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.cart-list {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 40px;
+    
+}
+
+.cart-header {
+    color: black;
+    font-size: 18px;
+    border-bottom: solid;
+    border-bottom-color:black ;
+    align-items: center;
+}
+
+.cart-row {
+    margin-top: 30px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px
+}
+
+.cart-img {
+    width: 100px;
+    height: auto
+}
+
+.cart-price {
+    color: blue;
+    font-weight: 700;
+}
+
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+    margin-top: 30px;
+}
+
+.purchase-btn {
+    margin: auto 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.btn-primary {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border-style: none;
+}
+
+
+
